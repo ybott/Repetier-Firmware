@@ -132,6 +132,10 @@
 #include "boards/stacker_3d_superboard.h"
 #endif
 
+#if MOTHERBOARD == MOTHERBOARD_DAVINCI
+#include "boards/davinci.h"
+#endif
+
 #if MOTHERBOARD == MOTHERBOARD_RURAMPS4D
 #include "boards/ruramps4d.h"
 #endif
